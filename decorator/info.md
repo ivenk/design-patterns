@@ -6,4 +6,5 @@ The use for this pattern is the ability to extend or modify the behaviour of an 
 
 
 ### Resources
-1. https://javapapers.com/design-patterns/decorator-pattern/
+1. [Basic example](https://javapapers.com/design-patterns/decorator-pattern/)
+2. [More advanced](https://dzone.com/articles/decorator-design-pattern-in-java)
