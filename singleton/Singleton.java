@@ -11,17 +11,17 @@ class Singleton {
 
 class LazySingleton {
 
-    private LazySingleton instance;
+    private static LazySingleton instance;
     private LazySingleton(){}
 
     public static LazySingleton getInstance() {
-        if (this.instance == null) {
+        if (instance == null) {
             synchronized (LazySingleton.class) {
-                if (this.instance == null) {
-                    this.instance = new LazySingleton();
+                if (instance == null) {
+                    instance = new LazySingleton();
                 }
             }
         }
-        return this.instance;
+        return instance;
     }
 }
