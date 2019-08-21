@@ -1,8 +1,9 @@
 ## Builder design pattern
 
-The builder pattern is used to construct complex objects step by step. The otherwise difficult act is broken into multiple small steps allowing for an easier creation process.
-The builder must be able to build different versions of the same class. 
-The class including the creation process gets simplified.
+The builder pattern is used to construct complex objects.
+The builder must be able to build different versions of the same class. There is an individual builder subclass foreach type of object that needs to be build.
+The class including the creation process gets simplified. However a meaningful director has to be found and creating multiple builders causes a lot of work.
+
 
 ## Remark 
 There seems to be quit a lot of misunderstanding revolving around the builder pattern. One example of that can be currently found on the [wikipedia page](https://en.wikipedia.org/wiki/Builder_pattern).
