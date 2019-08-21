@@ -65,7 +65,5 @@ class ChainOfCommand {
         Logger loggerChain = new ConsoleLogger(LogLevel.DEBUG).setNextLogger(new MailLogger(LogLevel.WARNING));
         loggerChain.log(LogLevel.DEBUG, "debug test");
         loggerChain.log(LogLevel.WARNING, "warning test");
-
     }
-
 }
