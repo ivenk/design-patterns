@@ -1,3 +1,6 @@
+/**
+ * This is not my own code. I however cannot remember where it came from.
+ */
 class Car {
     private String make;
     private String model;
